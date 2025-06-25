@@ -1,0 +1,65 @@
+/* Estilos para los turnos en el calendario */
+.turno-completo {
+    background-color: #ffcccc;
+    color: #333;
+}
+
+.turno-disponible {
+    background-color: #ffffcc;
+    color: #333;
+}
+
+.turno-sin-reservas {
+    background-color: #ccffcc;
+    color: #333;
+}
+
+.calendar-container-reserva {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.calendar-container .calendar {
+    margin-right: 20px;
+    justify-content: start;
+}
+
+.reservas-del-dia {
+    margin-left: 20px;
+    justify-content: end;
+    flex: 1;
+}
+
+.list-unstyled li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+
+    .reservas-list {
+        padding-bottom: 10px;
+    }
+
+    .calendar-container-reserva {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .calendar-container-reserva .calendar {
+        max-width: 100%; 
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .reservas-del-dia {
+        max-width: 100%; 
+        margin-left: 0;
+        padding-top: 20px;
+    }
+}

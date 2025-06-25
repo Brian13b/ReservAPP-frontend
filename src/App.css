@@ -1,0 +1,15 @@
+
+.navbar-custom {
+  background-image: linear-gradient(to right, #024317, #03a34e);
+  color: #000; 
+}
+
+body {
+  padding-bottom: 50px;
+  background-color: #f4f4f4;
+}
+
+.footer-custom {
+  position: fixed;
+  background-image: linear-gradient(to right,  #024317, #03a34e);
+}

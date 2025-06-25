@@ -1,0 +1,53 @@
+.home-page {
+  height: 100%;
+  width: 100%;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-page h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.home-page p {
+  font-size: 1.5rem;
+}
+
+.home-page .btn-reservar-hp {
+  background-color: #026321;
+  border-color: #026321;
+  color: white;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  margin: 2px;
+}
+
+.home-page .btn-reservar-hp:hover {
+  background-color: #005a1d;
+  border-color: #005a1d;
+  color: white;
+}
+
+.home-page img {
+  width: auto;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .home-page h1 {
+    font-size: 2rem;
+  }
+
+  .home-page p {
+    font-size: 1rem;
+  }
+
+  .home-page img {
+    width: auto;
+    height: auto;
+  }
+  
+}

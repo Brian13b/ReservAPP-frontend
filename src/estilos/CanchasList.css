@@ -1,0 +1,100 @@
+.card {
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 20px;
+  overflow: hidden; 
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.card-text {
+  color: #555;
+  font-size: 1rem;
+}
+
+.canchas-list .btn {
+  border-radius: 5px;
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.canchas-list .btn-custom-canchas {
+  background-color: #026321;
+  border-color: #026321;
+  margin-right: 5px;
+}
+
+.canchas-list .btn-custom-canchas:hover {
+  background-color: #024e1a;
+  border-color: #024e1a;
+}
+
+.canchas-list .btn-custom-canchas:active {
+  background-color: #024e1a;
+  border-color: #024e1a;
+}
+
+.canchas-list .btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  margin-right: 65px;
+}
+
+.canchas-list .btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.canchas-list .btn-secondary:active {
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.canchas-list .btn-danger {
+  align-content: end;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.canchas-list .btn-danger:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+.canchas-list .btn-warning {
+  margin-right: 5px;
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+.canchas-list .btn-warning:hover {
+  background-color: #e0a800;
+  border-color: #d39e00;
+}
+
+.card-img-top {
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #999;
+}
+
+@media (max-width: 768px) {
+  .canchas-list {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+}

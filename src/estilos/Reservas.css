@@ -1,0 +1,141 @@
+/* Estilos para los turnos en el calendario */
+.completo {
+    background-color: #ffcccc;
+    color: #333;
+}
+
+.parcial {
+    background-color: #ffffcc;
+    color: #333;
+}
+
+.disponible {
+    background-color: #ccffcc;
+    color: #333;
+}
+
+/* Estilos para el calendario */
+.calendar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el grid */
+.reserva-grid {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.grid-header {
+    display: flex;
+    align-items: center;
+    background-color: #f8f9fa;
+    font-weight: bold;
+    border-bottom: 2px solid #dee2e6;
+    font-size: 16px;
+}
+
+.cancha-header {
+    padding: 10px;
+    text-align: center;
+    background-color: #e9ecef;
+    border-right: 1px solid #dee2e6;
+    font-size: 16px;
+    flex: 0 0 150px;
+}
+
+.hora-header {
+    width: 75px;
+    text-align: center;
+    padding: 10px;
+    border-right: 1px solid #dee2e6;
+    background-color: #f1f3f5;
+    font-weight: normal;
+    color: #495057;
+}
+
+.cancha-row {
+    align-items: center;
+    background-color: #f8f9fa;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+.cancha-nombre-list{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 55px;
+    padding-top: 15px;
+    background-color: #048513e8;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    flex: 0 0 150px;
+}
+
+.hora-slot {
+    display: flex;
+    align-items: center;
+    width: 75px;
+    height: 55px;
+    text-align: center;
+    border-right: 1.5px solid #ffffff;
+    border-left: 1.5px solid #ffffff;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-size: 14px;
+}
+
+.hora-slot.disponible {
+    background-color: #d4edda;
+    color: #28a745;
+}
+
+.hora-slot.ocupado {
+    background-color: #ced4da;
+    cursor: not-allowed;
+    color: #6c757d;
+}
+
+.hora-slot.disponible:hover {
+    background-color: #c3e6cb;
+    transform: scale(1.05);
+}
+
+.hora-slot.ocupado:hover {
+    transform: scale(1.05);
+    background-color: #adb5bd;
+}
+
+
+@media (max-width: 768px) {
+    .reserva-grid {
+        display: flex;
+        flex-direction: column;
+        overflow: auto;
+    }
+    
+    .hora-header {
+        width: 80px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .cancha-nombre-list {
+        width: 150px;
+        height: 60px;
+        font-size: 14px;
+    }
+
+    .hora-slot {
+        width: 80px;
+        height: 60px;
+        font-size: 12px;
+    }
+}
