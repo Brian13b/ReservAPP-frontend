@@ -49,6 +49,22 @@
 
 ---
 
+# Capturas de Pantalla
+
+![Pantalla Principal](./public/screenshots/HomePage.jpg)
+*Pantalla principal de la aplicación*
+
+![Lista de Canchas](./public/screenshots/ListaCanchas.jpg)
+*Listado para ver las canchas*
+
+![Reservas de una Cancha](./public/screenshots/ReservasCanchas.jpg)
+*Pantalla para ver las reservas de una cancha*
+
+![Responsive Mobile](./public/screenshots/Responsive.jpg)
+*Vista responsive*
+
+---
+
 ## ⚙️ Instalación Local
 
 1. **Clonar el repositorio**
